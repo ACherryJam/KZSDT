@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\GameMaker">
+      <UniqueIdentifier>{c47f76cb-1e1c-469a-afab-0fea7c66fae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GameMaker">
+      <UniqueIdentifier>{2c9be8a1-ed2e-4657-9447-43a35ea64064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Manipulation">
+      <UniqueIdentifier>{5d37178c-8bc0-42a2-b9e5-90b5be0a7897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Manipulation">
+      <UniqueIdentifier>{c76a23f6-6174-4766-9d2b-9b3765a591b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\KZSDT">
+      <UniqueIdentifier>{2f0d0874-5728-4925-8a86-ee9dcb5857e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\KZSDT">
+      <UniqueIdentifier>{1cfcc4c2-dd5a-4aff-bde4-b16bf5953ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\minhook">
+      <UniqueIdentifier>{e41de0fe-3473-464b-b43d-6e4f848b2289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\minhook\include">
+      <UniqueIdentifier>{c40bd4d8-ec73-4d16-b3d8-b78acb157420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\minhook\src">
+      <UniqueIdentifier>{e09e6806-d500-425d-9f04-51c2bacfc187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\minhook\src\hde">
+      <UniqueIdentifier>{c98c6027-35ee-4d8a-bba7-0fe49a3168fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\minhook">
+      <UniqueIdentifier>{e4e678bc-e02c-4441-9781-8bf9bb521e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\minhook\src">
+      <UniqueIdentifier>{e31ddad4-2990-435a-9a25-9943901a21f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\minhook\src\hde">
+      <UniqueIdentifier>{8bdd1907-1a17-460d-b654-e2621c0265b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="codecaves.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaker_DataStructures.h">
+      <Filter>Файлы заголовков\GameMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaker_RValue.h">
+      <Filter>Файлы заголовков\GameMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaker_Structs.h">
+      <Filter>Файлы заголовков\GameMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Manip_Patch.h">
+      <Filter>Файлы заголовков\Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="KZSDT_Enemy.h">
+      <Filter>Файлы заголовков\KZSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="KZSDT_Codecaves.h">
+      <Filter>Файлы заголовков\KZSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="KZSDT_Hooks.h">
+      <Filter>Файлы заголовков\KZSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\include\MinHook.h">
+      <Filter>Файлы заголовков\minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde32.h">
+      <Filter>Файлы заголовков\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde64.h">
+      <Filter>Файлы заголовков\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\pstdint.h">
+      <Filter>Файлы заголовков\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table32.h">
+      <Filter>Файлы заголовков\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table64.h">
+      <Filter>Файлы заголовков\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\buffer.h">
+      <Filter>Файлы заголовков\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\trampoline.h">
+      <Filter>Файлы заголовков\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="KZSDT_Test.h">
+      <Filter>Файлы заголовков\KZSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="KatanaZero.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaker_Functions.h">
+      <Filter>Файлы заголовков\GameMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="KZSDT_Shield.h">
+      <Filter>Файлы заголовков\KZSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="KZSDT_BikeEnemyHit.h">
+      <Filter>Файлы заголовков\KZSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="Manipulation.h">
+      <Filter>Файлы заголовков\Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaker.h">
+      <Filter>Файлы заголовков\GameMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="KZSDT.h">
+      <Filter>Файлы заголовков\KZSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="Manip_Hook.h">
+      <Filter>Файлы заголовков\Manipulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaker_RValue.cpp">
+      <Filter>Исходные файлы\GameMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaker_Structs.cpp">
+      <Filter>Исходные файлы\GameMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Manip_Patch.cpp">
+      <Filter>Исходные файлы\Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="KZSDT_Enemy.cpp">
+      <Filter>Исходные файлы\KZSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="KZSDT_Codecaves.cpp">
+      <Filter>Исходные файлы\KZSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="KZSDT_Hooks.cpp">
+      <Filter>Исходные файлы\KZSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>Исходные файлы\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde64.c">
+      <Filter>Исходные файлы\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>Исходные файлы\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>Исходные файлы\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>Исходные файлы\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="KZSDT_Test.cpp">
+      <Filter>Исходные файлы\KZSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaker_Functions.cpp">
+      <Filter>Исходные файлы\GameMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="KZSDT_Shield.cpp">
+      <Filter>Исходные файлы\KZSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="KZSDT_BikeEnemyHit.cpp">
+      <Filter>Исходные файлы\KZSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="Manip_Hook.cpp">
+      <Filter>Исходные файлы\Manipulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KZSDT.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Documents\shield.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
